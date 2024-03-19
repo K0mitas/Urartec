@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  /* overflow-x: hidden; */
+  background-image: url(./img/backhayk.jpg);
+  background-size: cover;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+.App {
+  width: 1080px;
+  margin: 50px auto;
+}
+
+.home_block {
+  text-align: center;
+}
+
+.urartbarevimg {
+  width: 300px;
+}
+
+.home_text {
+  color: white;
+  font-size: 27px;
+}
+
+.home_button {
+  font-family: "Oswald", sans-serif;
+  margin-top: 20px;
+  padding: 10px 50px;
+  font-size: 20px;
+  background-color: rgb(90, 88, 88);
+  color: white;
+  border-color: rgb(49, 49, 49);
+  cursor: pointer;
+}
+
+
+
+
+
+/* Complexity */
+
+.complexity_block {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.complexity_ul {
+  text-align: center;
+}
+
+.complexity_button {
+  font-family: "Oswald", sans-serif;
+  margin-top: 10px;
+  
+}
+
+.complexity_hajime {
+  text-align: center;
+}
+
+.navlink {
+  display: inline-block;
+}
+
+.esay {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  width: 700px;
+  height: 150px;
+  background-color: rgb(43, 43, 43);
+  border-color: rgb(43, 43, 43);
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+/* .normal {
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  align-items: center;
+
+  color: white;
+  width: 700px;
+  height: 150px;
+  background-color: rgb(66, 68, 66);
+  border-color: rgb(66, 68, 66);
+  margin-bottom: 30px;
+} */
+
+/* .hard {
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  align-items: center;
+
+  color: white;
+  width: 700px;
+  height: 150px;
+  background-color: rgb(156, 7, 7);
+  border-color: rgb(156, 7, 7);
+} */
+
+
+
+.esay_img {
+  width: 110px;
+  height: 110px;
+  margin-left: 15px;
+}
+
+.esay_name {
+  font-size: 20px;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.esay_text {
+  text-align: center;
+  font-size: 13px;
+  width: 200px;
+  margin-left: 180px;
+}
+
+/* .normal_name {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.normal_text {
+  text-align: center;
+  font-size: 13px;
+  width: 200px;
+  margin-left: 180px;
+}
+
+.hard_name {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.hard_text {
+  text-align: center;
+  font-size: 13px;
+  width: 200px;
+  margin-left: 180px;
+} */
+/* Complexity */
+
+
+/* Esay */
+.esay {
+  cursor: pointer;
+  margin-top: 112px;
+}
+
+.esay_named {
+  text-align: center;
+  color: rgb(49, 49, 49);
+}
+
+.esay_hajime {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+}
+
+.esay_block {
+  margin-top: 96px;
+  width: 360px;
+  height: 464px;
+  background-color: rgb(70, 70, 70);
+  border-radius: 3%;
+  text-align: center;
+}
+
+.esay_img_block {
+  display: inline-table;
+  width: 130px;
+  height: 104px;
+  margin-right: 20px;
+  margin-top: 9px;
+}
+
+.esay_imges {
+  width: 187px;
+  height: 140px;
+  margin-left: 21px;
+  border-radius: 10%;
+}
+
+.esay_coueistion {
+  width: 300px;
+  display: inline-block;
+  color: white;
+  font-weight: 10px;
+}
+
+.esay_ul_button {
+  margin-top: 8px;
+  
+}
+
+.esay_li {
+  list-style: none;
+  padding: 5px;
+  font-family: "Oswald", sans-serif;
+}
+
+.esay_button {
+  padding: 6px;
+  font-family: "Oswald", sans-serif;
+  background-color: rgb(90, 88, 88);
+  border-color: rgb(90, 88, 88);
+  color: white;
+}
+
+.esay_questions_number {
+  color: white;
+}
+/* Esay */
+
+
+.reklama {
+  color: white;
+}
+
+.rektext {
+  color: white;
+}
+
+.sslka {
+  text-decoration: none;
+}
+
+.rekimg {
+  margin-top: 15px;
+  width: 200px;
+  height: 200px;
+}
+
+/* Result */
+.result_hajime {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.result_block {
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  border-radius: 4%;
+}
+
+.result_img {
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.result_text {
+  font-size: 15px;
+}
+
+.result_button {
+  font-family: "Oswald", sans-serif;
+  padding: 9px 40px;
+  font-size: 13px;
+  margin-top: 20px;
+  background-color: rgb(90, 88, 88);
+  color: white;
+  border-color: rgb(90, 88, 88);
+  cursor: pointer;
+}
+/* Result */
+
+.next_questions {
+  font-family: "Oswald", sans-serif;
+  padding: 5px;
+  font-size: 11px;
+  margin-top: 14px;
+  background-color: rgb(90, 88, 88);
+  color: white;
+  border-color: rgb(90, 88, 88);
+  cursor: pointer;
+}
+
+
+
+
+@media (max-width: 1280px) {
+  .App {
+    width: 100vw;
+  }
+
+  .home_text {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  .home_text {
+    font-size: 23px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+
+/* Complexity media */
+@media (min-width: 3000px) {
+
+.complexity_hajime {
+    width: 100vw;
+  }
+
+}
+
+@media (max-width: 730px) {
+  .esay {
+    width: 500px;
+    height: 125px;
+  }
+  
+  .esay_img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .esay_name {
+    font-size: 14px;
+    margin-left: 15px;
+  }
+
+  .esay_text {
+    text-align: center;
+    font-size: 10px;
+    width: 200px;
+    margin-left: 180px;
+    margin-right: 20px;
+  }
+
+
+  .normal {
+    width: 500px;
+    height: 125px;
+  }
+
+  .normal_name {
+    font-size: 14px;
+    margin-left: 15px;
+  }
+  
+  .normal_text {
+    text-align: center;
+    font-size: 10px;
+    width: 200px;
+    margin-left: 180px;
+    margin-right: 20px;
+  }
+
+
+  .hard {
+    width: 500px;
+    height: 125px;
+  }
+
+  .hard_name {
+    font-size: 14px;
+    margin-left: 15px;
+  }
+
+  .hard_text {
+    text-align: center;
+    font-size: 10px;
+    width: 200px;
+    margin-left: 180px;
+    margin-right: 20px;
+  }
+
+}
+
+@media (max-width: 530px) {
+  .esay {
+    display: block;
+    width: 160px;
+    height: 225px;
+  }
+
+  .esay_img {
+    width: 90px;
+    height: 90px;
+    margin-left: 0px;
+  }
+
+  .esay_name {
+    font-size: 14px;
+    margin-left: 15px;
+    margin-left: 0px;
+  }
+
+  .esay_text {
+    text-align: center;
+    font-size: 9px;
+    width: 156px;
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+
+  .reklama {
+    font-size: 25px;
+  }
+
+  .rektext {
+    font-size: 13px;
+  }
+
+
+  .normal {
+    display: block;
+    width: 160px;
+    height: 225px;
+  }
+
+  .normal_name {
+    font-size: 14px;
+    margin-left: 15px;
+    margin-left: 0px;
+  }
+  
+  .normal_text {
+    text-align: center;
+    font-size: 9px;
+    width: 156px;
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+
+
+  .hard {
+    display: block;
+    width: 160px;
+    height: 225px;
+  }
+
+  .hard_name {
+    font-size: 14px;
+    margin-left: 15px;
+    margin-left: 0px;
+  }
+
+  .hard_text {
+    text-align: center;
+    font-size: 9px;
+    width: 156px;
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+
+}
+/* Complexity media */
+
+
+/* Esay media */
+@media (max-width: 395px) {
+  .esay_block {
+    margin-top: 149px;
+    width: 300px;
+    height: 380px;
+  }
+
+  .esay_imges {
+    width: 163px;
+    height: 87px;
+    margin-left: 21px;
+    border-radius: 10%;
+}
+
+.esay_coueistion {
+  font-size: 13px;
+}
+}
+/* Esay media */
+
+
+/* Result media */
+@media (max-width: 540px) {
+  .result_block {
+    text-align: center;
+    width: 281px;
+    height: 270px;
+    background-color: white;
+    border-radius: 4%;
+  }
+
+  .result_text {
+    font-size: 13px;
+}
+
+.result_img {
+  margin-top: 10px;
+  width: 126px;
+  height: 128px;
+}
+}
+/* Result media */
